@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_gravity="left"
+    android:gravity="left"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.1"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_lessons_number"
+        android:layout_gravity="left|center"
+        android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:text="1"/>
+    <TextView
+        android:id="@+id/tv_lessons_title"
+        android:layout_gravity="left|center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:text="Литературное чтение"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_lessons_office"
+        android:gravity="right|center"
+        android:layout_gravity="left|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:text="202 каб"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">School553</string>
+    <string name="news">Новости</string>
+    <string name="info">Информация</string>
+    <string name="schedule">Расписание</string>
+    <string name="exams">Экзамены</string>
+
+    <string name="first_gate_title"><b>Приём в 1-ый класс</b></string>
+    <string name="first_gate_classes">\t\tПланируемое количество 1-х классов — 3</string>
+    <string name="first_gate_plan_seats">\t\tПланируемое количество мест — 75</string>
+    <string name="first_gate_seats">\t\tВакантных мест — 75</string>
+    <string name="first_gate_desc">\t\tГрафик приёма заявлений и прилагаемых к ним копий документов: \nвторник, 15.00 — 17.00</string>
+    <string name="first_gate_address"><b>Адрес:</b> Санкт-Петербург, улица Ярослава Гашека, дом 4, корпус 4, 2 этаж, кабинет директора.</string>
+    <string name="first_gate_place_address"><b>Адрес площадки лагеря:</b>  ул. Ярослава Гашека, д. 4, к. 4 лит «А»</string>
+    <string name="first_gate_phone"><b>Телефон:</b> 778-21-31</string>
+    <string name="first_gate_desc2">Посещение общеобразовательного учреждения возможно только при наличии средств индивидуальной защиты органов дыхания: респираторов, гигиенических, в том числе медицинских, масок (одноразовых, многоразовых), масок из текстильных материалов, обеспечивающих индивидуальную защиту органов дыхания человека, и средств индивидуальной защиты рук (перчаток), а также отсутствия у заявителей повышенных показателей температуры тела.</string>
+    <string name="first_gate_director"><b>Ответственный:</b> Васильева Светлана Анатольевна</string>
+    <string name="first_gate_second_director"><b>Заместитель начальника лагеря:</b> Болдырева Татьяна Александровна</string>
+    <string name="first_gate_contacts"><b>По всем вопросам обращаться по телефонам:</b> \n+7911-254-27-81 Калинина Татьяна Александровна (начальник ГОЛ «Радуга») \n+79633294003 Болдырева Татьяна Александровна (заместитель начальника ГОЛ «Радуга»)</string>
+
+
+    <string name="camp_title"><b>Городской лагерь</b></string>
+    <string name="camp_desc">\t\tГородской оздоровительный лагерь «РАДУГА» на базе ГБОУ СОШ №553 Фрунзенского района Санкт-Петербурга</string>
+    <string name="camp_address"><b>Адрес:</b> ул. Ярослава Гашека, д. 4, к. 4</string>
+    <string name="camp_place_address"><b>Адрес площадки лагеря:</b>  ул. Ярослава Гашека, д. 4, к. 4 лит «А»</string>
+    <string name="camp_phone"><b>Телефон:</b> 812-778-21-31</string>
+    <string name="camp_email"><b>E-mail:</b> school553@edu-frn.spb.ru</string>
+    <string name="camp_director"><b>Начальник лагеря:</b> Калинина Татьяна Александровна</string>
+    <string name="camp_second_director"><b>Заместитель начальника лагеря:</b> Болдырева Татьяна Александровна</string>
+    <string name="camp_contacts"><b>По всем вопросам обращаться по телефонам:</b> \n+7911-254-27-81 Калинина Татьяна Александровна (начальник ГОЛ «Радуга») \n+79633294003 Болдырева Татьяна Александровна (заместитель начальника ГОЛ «Радуга»)</string>
+
+    <string name="NOT_IMPORTANT_CHANNEL_NAME">Basic notification channel</string>
+    <string name="NOT_IMPORTANT_CHANNEL_DESCRIPTION">Basic notification channel description</string>
+    <string name="IMPORTANT_CHANNEL_NAME">Important notification channel</string>
+    <string name="IMPORTANT_CHANNEL_DESCRIPTION">Important notification channel description</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="base_url">https://spbschool553.com</string>
+    <string name="about_school">\t\tНашу школу создали из чисто молодежного коллектива по образу и подобию школ Дании и Болгарии. Идея не прижилась: требовалась смена поколений и передача опыта. В Дании такая школа просуществовала около полугода, в Болгарии — два. Несмотря на все трудности, 553 выстояла и со временем привлекла в работу опытных учителей. Строительство проходило активно. Участвовали не только нанятые люди, но и будущие учителя, ученики десятых классов: они так же, как и все, надевали сапоги, ватники, перчатки и вперед! Кирпичи не клали, но помогали с уборкой, готовили кабинеты. В 1988 году в газетах «Смена» и «Молодежь Болгарии» появились статьи о 553 общеобразовательной школе, на Ленинградском ТВ в рамках программы «Здравствуй, школа!» открытию посвятили целый выпуск, что интересно, съемку вели на крыше здания.
+    </string>
+    <string name="about_school_2">\t\tС того времени прошло много лет. Прежде обычная общеобразовательная школа получила звание «школы с углубленным изучением английского языка» и стала такой, какой знаем мы ее теперь.
+    </string>
+    <string name="about_school_full_name"><b>Полное официальное наименование Образовательной организации:</b> Государственное бюджетное общеобразовательное учреждение средняя общеобразовательная школа № 553 с углубленным изучением английского языка Фрунзенского района Санкт-Петербурга.
+    </string>
+    <string name="about_school_short_name"><b>Сокращенное официальное наименование Образовательной организации:</b> \nГБОУ средняя школа № 553 с углублённым изучением английского языка Фрунзенского района Санкт-Петербурга.</string>
+    <string name="about_school_address"><b>Адрес:</b> 192281, Санкт-Петербург, ул. Ярослава Гашека, дом 4, корпус 4, литера А</string>
+    <string name="about_school_phone"><b>Телефон/факс:</b> 778-21-31</string>
+    <string name="about_school_email"><b>E-mail:</b> school553@edu-frn.spb.ru</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="open_map">Показать на карте</string>
+    <string name="office">&#160;каб</string>
+    <string name="_2021_2022">Расписание звонков 2021/2022</string>
+    <string name="_1">1 урок</string>
+    <string name="_09_00_09_45">09.00 – 09.45</string>
+    <string name="_2">2 урок</string>
+    <string name="_09_55_10_40">09.55 – 10.40</string>
+    <string name="_3">3 урок</string>
+    <string name="_11_00_11_45">11.00 – 11.45</string>
+    <string name="_4">4 урок</string>
+    <string name="_12_05_12_50">12.05 – 12.50</string>
+    <string name="_5">5 урок</string>
+    <string name="_13_00_13_45">13.00 – 13.45</string>
+    <string name="_6">6 урок</string>
+    <string name="_13_55_14_40">13.55 – 14.40</string>
+    <string name="_7">7 урок</string>
+    <string name="_14_50_15_35">14.50 – 15.35</string>
+    <string name="vacation_2021_2022">Каникулы 2021/2022</string>
+    <string name="spring_break">Всенние каникулы:</string>
+    <string name="_25_10_2021_03_11_2021_10">25.10.2021 -03.11.2021 (10 дней)</string>
+    <string name="winter_vacation">Зимние каникулы:</string>
+    <string name="_29_12_2021_09_01_2022_12">29.12.2021 - 09.01.2022 (12 дней)</string>
+    <string name="autumn_vacation">Осенние каникулы</string>
+    <string name="_24_03_2022_02_04_2022_10">24.03.2022 - 02.04.2022 (10 дней)</string>
+    <string name="additional_holidays_for_first_graders">Дополнительные каникулы для первоклассников:</string>
+    <string name="_14_02_2022_20_02_2022">14.02.2022 - 20.02.2022</string>
+    <string name="graph_event">ГРАФИК ПРОВЕДЕНИЯ</string>
+    <string name="oge_title">ГРАФИК ПРОВЕДЕНИЯ \nосновного государственного экзамена</string>
+    <string name="ege_title">ГРАФИК ПРОВЕДЕНИЯ \nединого государственного экзамена</string>
+</resources>

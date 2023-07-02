@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="10dp"
+    android:scrollbars="vertical"
+    tools:context=".fragments.AboutSchoolFragment">
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarDefaultDelayBeforeFade="100"
+        android:scrollbarSize="6dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbarThumbVertical="@drawable/scrollbar_red"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="right">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:orientation="vertical"
+            android:paddingBottom="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="5sp"
+                android:text="О школе"
+                android:textColor="#020000"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:lineSpacingExtra="5sp"
+                android:text="@string/about_school"
+                android:textColor="#020000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat"
+                android:lineSpacingExtra="5sp"
+                android:text="@string/about_school_2"
+                android:textColor="#020000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat"
+                android:lineSpacingExtra="5sp"
+                android:text="@string/about_school_full_name"
+                android:textColor="#020000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat"
+                android:lineSpacingExtra="5sp"
+                android:text="@string/about_school_short_name"
+                android:textColor="#020000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat"
+                android:lineSpacingExtra="5sp"
+                android:text="@string/about_school_address"
+                android:textColor="#020000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat"
+                android:lineSpacingExtra="5sp"
+                android:text="@string/about_school_phone"
+                android:textColor="#020000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat"
+                android:lineSpacingExtra="5sp"
+                android:text="@string/about_school_email"
+                android:textColor="#020000"
+                android:textSize="16sp" />
+
+            <com.yandex.mapkit.mapview.MapView
+                android:id="@+id/map"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonScrollDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/red"
+        app:fabCustomSize="50dp"
+        app:fabSize="normal"
+        android:clickable="true"
+        android:src="@drawable/ic_baseline_arrow_downward_24" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

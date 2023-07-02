@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:foregroundTint="#FFFFFF"
+    tools:context=".fragments.LessonsScheduleFragment">
+
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_lessons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:backgroundTint="#FFFFFF"
+                    android:scrollbarDefaultDelayBeforeFade="100"
+                    android:scrollbarSize="6dp"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbarThumbVertical="@drawable/scrollbar_red"
+                    android:scrollbars="vertical"
+                    android:verticalScrollbarPosition="right" />
+
+                <ProgressBar
+                    android:id="@+id/pb_lessons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:indeterminateTint="@color/red" />
+
+            </RelativeLayout>
+
+
+            <!-- подключение нижнего экрана -->
+            <include layout="@layout/bottom_sheet" />
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_btmsheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                app:layout_anchor="@+id/bottom_sheet_container"
+                app:layout_anchorGravity="top|end">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/buttonFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginStart="@dimen/fab_margin"
+                    android:layout_marginTop="@dimen/fab_margin"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:backgroundTint="@color/red"
+                    android:clickable="true"
+                    android:src="@drawable/ic_action_action_search"
+                    app:fabCustomSize="50dp"
+                    app:fabSize="normal" />
+            </RelativeLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/buttonScrollDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/red"
+                android:clickable="true"
+                android:src="@drawable/ic_baseline_arrow_downward_24"
+                app:fabCustomSize="50dp"
+                app:layout_anchor="@+id/relativeLayout2"
+                app:layout_anchorGravity="end|bottom" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>

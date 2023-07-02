@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".fragments.InfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="40dp"
+        app:singleSelection="true"
+        app:singleLine="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            style="@style/CustomChipStyle"
+            android:text="О школе" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_camp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CustomChipStyle"
+            android:text="Лагерь" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CustomChipStyle"
+            android:text="Контакты" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_classes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CustomChipStyle"
+            android:text="Классы" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_1_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CustomChipStyle"
+            android:text="1 класс" />
+    </com.google.android.material.chip.ChipGroup>
+</HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/chip_host_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    </LinearLayout>
+</FrameLayout>

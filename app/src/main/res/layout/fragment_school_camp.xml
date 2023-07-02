@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SchoolCampFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbarDefaultDelayBeforeFade="100"
+            android:scrollbarSize="6dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbarThumbVertical="@drawable/scrollbar_red"
+            android:scrollbars="vertical"
+            android:verticalScrollbarPosition="right">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginLeft="27dp"
+                android:layout_marginRight="27dp"
+                android:orientation="vertical"
+                android:paddingBottom="60dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/camp_title"
+                    android:textColor="#020000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/camp_desc"
+                    android:textColor="#020000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/camp_address"
+                    android:textColor="#020000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/camp_phone"
+                    android:textColor="#020000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/camp_place_address"
+                    android:textColor="#020000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/camp_email"
+                    android:textColor="#020000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/camp_director"
+                    android:textColor="#020000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/camp_second_director"
+                    android:textColor="#020000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/camp_contacts"
+                    android:textColor="#020000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>

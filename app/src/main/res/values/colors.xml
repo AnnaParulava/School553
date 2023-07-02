@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#c1272d</color>
+    <color name="blue">#0071bc</color>
+    <color name="blue_2">#49B3FA</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="bn_ic_color">#65FBD7</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bgNavigationBoard">#1B1C1C</color>
+    <color name="bgCardView">#2B2C2C</color>
+    <color name="NavigationSeparateLine">#717171</color>
+    <color name="bgChip">#E4E4E4</color>
+    <color name="bmn_selector_color">#B9FFFFFF</color>
+    <color name="cardview_bg">#DFE3F4F4</color>
+    <color name="bg_classes_item">#F1F1F1</color>
+    <color name="separate_classes_item">#454A4A4A</color>
+    <color name="cardview_separate">#DEC4C4C4</color>
+    <color name="pb_color">#5BF3A8</color>
+    <color name="cardview_textcolor">#00498D</color>
+    <color name="tab_background_selected">#00F0FF</color>
+    <color name="chip_background_selected">#D287F8FF</color>
+</resources>
